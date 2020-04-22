@@ -1,0 +1,5 @@
+game:GetService("ReplicatedStorage").NPCDialog.PlayerChatted:InvokeServer(game.Workspace.Stores.WoodRUs.Thom, 'Thom', 10, game.Workspace.Stores.WoodRUs.Dialog, 'Initiate')
+wait(.08)
+game:GetService("ReplicatedStorage").NPCDialog.PlayerChatted:InvokeServer(game.Workspace.Stores.WoodRUs.Thom, 'Thom', 10, game.Workspace.Stores.WoodRUs.Dialog, 'ConfirmPurchase')
+wait(.08)
+game:GetService("ReplicatedStorage").NPCDialog.PlayerChatted:InvokeServer(game.Workspace.Stores.WoodRUs.Thom, 'Thom', 10, game.Workspace.Stores.WoodRUs.Dialog, 'EndChat')
